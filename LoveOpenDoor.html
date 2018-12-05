@@ -25,55 +25,84 @@
 
 
     <section class="gallery">
-    <style>
-      div.gallery {
-        margin: 5px;
-        border: 1px solid #ccc;
-        float: left;
-        width: 180px;
-      }
+      <div class="container">
+      <div id="main_area">
+          <!-- Slider -->
+          <div class="row">
+              <div class="col-sm-6" id="slider-thumbs">
+                  <!-- Bottom switcher of slider -->
+                  <ul class="hide-bullets">
+                      <li class="col-sm-3">
+                          <a class="thumbnail" id="carousel-selector-0">
+                              <img src="http://placehold.it/150x150&text=zero">
+                          </a>
+                      </li>
 
-      div.gallery:hover {
-        border: 1px solid #777;
-      }
+                      <li class="col-sm-3">
+                          <a class="thumbnail" id="carousel-selector-1"><img src="http://placehold.it/150x150&text=1"></a>
+                      </li>
 
-      div.gallery img {
-        width: 100%;
-        height: auto;
-      }
+                      <li class="col-sm-3">
+                          <a class="thumbnail" id="carousel-selector-2"><img src="http://placehold.it/150x150&text=2"></a>
+                      </li>
 
-      div.desc {
-        padding: 15px;
-        text-align: center;
-      }
-      </style>
+                      <li class="col-sm-3">
+                          <a class="thumbnail" id="carousel-selector-3"><img src="http://placehold.it/150x150&text=3"></a>
+                      </li>
 
-      <div class="gallery">
-        <a target="_blank" href="Cake.jpg">
-          <img src="5terre.jpg" alt="Cinque Terre" width="300" height="200">
-        </a>
-        <div class="desc">Add a description of the image here</div>
-      </div>
+                    <li class="col-sm-3">
+                        <a class="thumbnail" id="carousel-selector-4"><img src="http://placehold.it/150x150&text=4"></a>
+                    </li>
 
-      <div class="gallery">
-        <a target="_blank" href="forest.jpg">
-          <img src="forest.jpg" alt="Forest" width="300" height="200">
-        </a>
-        <div class="desc">Add a description of the image here</div>
-      </div>
+                    <li class="col-sm-3">
+                        <a class="thumbnail" id="carousel-selector-5"><img src="http://placehold.it/150x150&text=5"></a>
+                    </li>
+                    <li class="col-sm-3">
+                        <a class="thumbnail" id="carousel-selector-6"><img src="http://placehold.it/150x150&text=6"></a>
+                    </li>
 
-      <div class="gallery">
-        <a target="_blank" href="lights.jpg">
-          <img src="lights.jpg" alt="Northern Lights" width="300" height="200">
-        </a>
-        <div class="desc">Add a description of the image here</div>
-      </div>
+                    <li class="col-sm-3">
+                        <a class="thumbnail" id="carousel-selector-7"><img src="http://placehold.it/150x150&text=7"></a>
+                    </li>
 
-      <div class="gallery">
-        <a target="_blank" href="mountains.jpg">
-          <img src="mountains.jpg" alt="Mountains" width="300" height="200">
-        </a>
-        <div class="desc">Add a description of the image here</div>
-      </div>
-    </section>
+                    <li class="col-sm-3">
+                        <a class="thumbnail" id="carousel-selector-8"><img src="http://placehold.it/150x150&text=8"></a>
+                    </li>
+                  </ul>
+          </div>
+          <div class="col-sm-6">
+              <div class="col-xs-12" id="slider">
+                  <!-- Top part of the slider -->
+                  <div class="row">
+                      <div class="col-sm-12" id="carousel-bounding-box">
+                          <div class="carousel slide" id="myCarousel">
+                              <!-- Carousel items -->
+                              <div class="carousel-inner">
+                                  <div class="active item" data-slide-number="0">
+                                      <img src="http://placehold.it/470x480&text=zero"></div>
+
+                                  <div class="item" data-slide-number="1">
+                                      <img src="http://placehold.it/470x480&text=1"></div>
+                                      <!-- Carousel nav -->
+                                                                      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                                                                          <span class="glyphicon glyphicon-chevron-left"></span>
+                                                                      </a>
+                                                                      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                                                                          <span class="glyphicon glyphicon-chevron-right"></span>
+                                                                      </a>
+                                                                  </div>
+                                                              </div>
+                                                          </div>
+                                                      </div>
+                                                  </div>
+                                                  <!--/Slider-->
+                                              </div>
+
+                                          </div>
+                                      </div>
+
+
+
+
+
 </body>
