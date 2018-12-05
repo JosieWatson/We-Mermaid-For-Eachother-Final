@@ -103,7 +103,6 @@ section {
 	max-width: 980px;
 	position: relative;
 	padding: 20px
-
 }
 
 h1 {
@@ -119,17 +118,31 @@ p {
 
 	line-height: 1.45em;
 	margin-bottom: 20px;
-
 }
 
 
 .dreamheader{
 	font-size: 50px;
-	text-align: center;
-
 }
 
 .fairytaleheader{
 	font-size: 25px;
+}
+
+.container {
+width:auto;
+margin: 0 auto;
+position:relative;
+}
+
+
+
+
+
+.banner {
+background-image: url(../img/banner-lg.jpg);
+background-repeat: no-repeat;
+background-position: center center;
+background-attachment: fixed;
 
 }
