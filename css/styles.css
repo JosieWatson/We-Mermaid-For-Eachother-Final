@@ -7,12 +7,12 @@ body {
 	line-height: 1.25em;
 	font-family: Helvetica Neue, Helvetica, Arial;
 	background: #f9f9f9;
-	color: #555;
+	color: #7EEEE4;
 }
 
 a {
 
-	color: #4C9CF1;
+	color: #7EEEE4;
 	text-decoration: none;
 	font-weight: bold;
 
@@ -26,7 +26,8 @@ a:hover {
 
 img {
 
-	width: 100%;
+	width: auto;
+	height: auto;
 
 }
 
@@ -38,7 +39,7 @@ header {
 	position: fixed;
 	top: 0;
 	left: 0;
-	border-bottom: 4px solid #4C9CF1;
+	border-bottom: 4px solid #71d6cd;
 	z-index: 100;
 
 }
@@ -72,7 +73,7 @@ nav {
 
 a:hover#menu-icon {
 
-	background-color: #444;
+	background-color: #71d6cd;
 	border-radius: 4px 4px 0 0;
 
 }
@@ -93,7 +94,7 @@ li {
 
 .current {
 
-	color: #2262AD;
+	color: #71d6cd;
 
 }
 
@@ -109,7 +110,7 @@ section {
 h1 {
 
 	font-size: 2em;
-	color: #2262AD;
+	color: #71d6cd;
 	line-height: 1.15em;
 	margin: 20px 0 ;
 

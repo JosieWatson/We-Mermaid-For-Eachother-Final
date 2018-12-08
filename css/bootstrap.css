@@ -42,7 +42,7 @@
 }
 
 html {
-  font-family: sans-serif;
+  font-family: Arial;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -6041,7 +6041,8 @@ button.close {
 .carousel-caption {
   position: absolute;
   right: 15%;
-  bottom: 20px;
+  bottom: 0
+  top: 50%;
   left: 15%;
   z-index: 10;
   padding-top: 20px;
