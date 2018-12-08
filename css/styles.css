@@ -135,14 +135,30 @@ margin: 0 auto;
 position:relative;
 }
 
-
-
-
-
 .banner {
-background-image: url(../img/banner-lg.jpg);
+background-image: url('http://lorempixel.com/g/500/500/');
 background-repeat: no-repeat;
 background-position: center center;
 background-attachment: fixed;
-
 }
+
+
+/* .bigslide {
+  display: block;
+  position: relative;
+  width: 100%;
+  padding: 160px 0;
+  color: #0ed1fb;
+  animation:2000s infinite linear;
+  -webkit-animation:infinite linear;
+}
+
+.bigslide h1 {
+  font-size: 34px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.bigslide p {
+  font-size: 20px;
+} */
