@@ -55,3 +55,10 @@ p {
     margin-top: 7rem;
   }
 }
+
+div.transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  opacity: 0.6;
+  filter: alpha;
+}
