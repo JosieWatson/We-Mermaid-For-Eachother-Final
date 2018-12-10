@@ -8,6 +8,7 @@ body {
 	font-family: Helvetica Neue, Helvetica, Arial;
 	background: #f9f9f9;
 	color: #7EEEE4;
+	margin-bottom: 60px;
 }
 
 a {
@@ -120,5 +121,18 @@ p {
 
 	line-height: 1.45em;
 	margin-bottom: 20px;
+}
 
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 300px;
+}
+footer {
+    padding-top: 30px;
+    background-color: #292c2f;
+    color: #bbb;
 }
