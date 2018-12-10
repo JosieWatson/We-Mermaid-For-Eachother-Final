@@ -100,6 +100,16 @@ li {
 }
 
 section {
+    position: absolute;
+    bottom: 0;
+    width: relative;
+    height: 300px;
+    padding-top: 30px;
+    background-color: #B0E0E6;
+    color: #bbb;
+}
+
+section {
 
 	margin: 80px auto 40px;
 	max-width: 980px;
@@ -136,45 +146,3 @@ footer {
     background-color: #292c2f;
     color: #bbb;
 }
-
-.dreamheader{
-	font-size: 50px;
-}
-
-.fairytaleheader{
-	font-size: 25px;
-}
-
-.container2 {
-width:auto;
-margin: 0 auto;
-position:relative;
-}
-
-.banner {
-background-image: url('http://lorempixel.com/g/500/500/');
-background-repeat: no-repeat;
-background-position: center center;
-background-attachment: fixed;
-}
-
-
-/* .bigslide {
-  display: block;
-  position: relative;
-  width: 100%;
-  padding: 160px 0;
-  color: #0ed1fb;
-  animation:2000s infinite linear;
-  -webkit-animation:infinite linear;
-}
-
-.bigslide h1 {
-  font-size: 34px;
-  font-weight: bold;
-  margin-bottom: 20px;
-}
-
-.bigslide p {
-  font-size: 20px;
-} */
