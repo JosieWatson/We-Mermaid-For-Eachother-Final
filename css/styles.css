@@ -135,13 +135,16 @@ section {
 .bgimage1 h5 {
   color:#71d6cd;
 	text-align: center;
-	font-size: 3em
+	font-family: gabriola;
+	font-size: 4em
+
 }
 
 .subtext {
-	color:grey;
+	color:black;
 	text-align: center;
-	font-size: 1em
+	font-family: gabriola;
+	font-size: 2em
 
 }
 
@@ -160,9 +163,26 @@ section {
 
 .bgimage2 h6 {
   color:#71d6cd;
-  /* text-shadow:2px 2px #333; */
+  text-align: center;
+	font-family: gabriola;
+	font-size: 4em
+}
+
+.subtext2 {
+	color:lightgrey;
 	text-align: center;
-	font-size: 3em
+	font-family: gabriola;
+	font-size: 2em
+
+}
+
+
+.subtext3 {
+	color:lightgrey;
+	text-align: center;
+	font-family: gabriola;
+	font-size: 2em
+
 }
 
 .item-category-area {
@@ -183,6 +203,31 @@ section {
 	text-align: center;
 	font-size: 3em
 }
+
+
+#img_cont {
+  display: table;
+  width: 90%;
+  margin: 20px auto;
+}
+
+#img_cont a {
+  display: table-cell;
+  text-align: center;
+  width: 16%;
+}
+
+#img_cont img {
+  width: 100%;
+  max-width: 150px;
+}
+
+
+
+h4 {
+	color: black;
+}
+
 
 h1 {
 
