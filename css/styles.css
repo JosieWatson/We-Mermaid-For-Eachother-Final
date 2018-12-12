@@ -123,7 +123,7 @@ section {
 .bgimage1 {
   width:100%;
   height:500px;
-  background: url('https://static.pulse.ng/img/incoming/origs4242197/3695568064-w644-h429/3.png');
+  background: url('https://media-api.xogrp.com/images/c38cc8e8-fa6d-4b3d-b6c1-e010137bf2f5~rs_768.h');
   background-repeat: no-repeat;
   background-position: absolute;
 	top: 0;
@@ -134,14 +134,12 @@ section {
 }
 .bgimage1 h5 {
   color:#71d6cd;
-  text-shadow:2px 2px #333;
 	text-align: center;
 	font-size: 3em
 }
 
 .subtext {
-	color:white;
-	text-shadow:2px 2px #333;
+	color:grey;
 	text-align: center;
 	font-size: 1em
 
@@ -150,8 +148,27 @@ section {
 .bgimage2 {
   width:100%;
   height:500px;
-  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpA1oVWWDA2KZVrauPzuOXa00cmXU-4_2vX0XWfDuV5_wSh9BGJw');
+  background: url('http://www.shireenlouw.com/wp-content/uploads/2013/04/preston-bailey.jpg');
   background-repeat: no-repeat;
+  background-position: absolute;
+	top: 0;
+	left: 0;
+	max-width: 100%;
+  background-size:cover;
+  background-attachment: fixed;
+}
+
+.bgimage2 h6 {
+  color:#71d6cd;
+  /* text-shadow:2px 2px #333; */
+	text-align: center;
+	font-size: 3em
+}
+
+.item-category-area {
+  width:100%;
+  height:500px;
+	background-color: #71d6cd
   background-position: absolute;
 	top: 0;
 	left: 0;
@@ -160,7 +177,7 @@ section {
   background-attachment: fixed;
 }
 
-.bgimage2 h6 {
+.bgimage2 h7 {
   color:#71d6cd;
   /* text-shadow:2px 2px #333; */
 	text-align: center;
