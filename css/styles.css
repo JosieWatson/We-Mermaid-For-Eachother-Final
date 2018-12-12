@@ -118,12 +118,47 @@ section {
 
 }
 
+
+
+.bgimage {
+  width:100%;
+  height:500px;
+  background: url('https://static.pulse.ng/img/incoming/origs4242197/3695568064-w644-h429/3.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  background-attachment: fixed;
+}
+.bgimage h5 {
+  color:#71d6cd;
+  /* text-shadow:2px 2px #333; */
+	text-align: center;
+	font-size: 3em
+}
+
+.sub {
+	color:black;
+	/* text-shadow:2px 2px #333; */
+	text-align: center;
+	font-size: 1em
+
+}
+
+.bgimage h6 {
+  color:#71d6cd;
+  /* text-shadow:2px 2px #333; */
+	text-align: center;
+	font-size: 3em
+}
+
+
 h1 {
 
 	font-size: 2em;
 	color: #71d6cd;
 	line-height: 1.15em;
 	margin: 20px 0 ;
+
 
 }
 
