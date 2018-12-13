@@ -197,29 +197,31 @@ section {
   background-attachment: fixed;
 }
 
-.bgimage2 h7 {
-  color:#71d6cd;
-  /* text-shadow:2px 2px #333; */
+.item-category-area h7 {
+  color: black;
 	text-align: center;
-	font-size: 3em
+	font-family: gabriola;
+	font-size: 2em
 }
 
 
-#img_cont {
-  display: table;
-  width: 90%;
-  margin: 20px auto;
+.center-block {
+  display: block;
+  max-width:230px;
+  max-height:95px;
+  width: auto;
+  height: auto;
 }
 
-#img_cont a {
-  display: table-cell;
-  text-align: center;
-  width: 16%;
+#movers-row {
+	margin: -120px 0 0 120px;
 }
-
-#img_cont img {
-  width: 100%;
-  max-width: 150px;
+#movers-row div {
+	width: 33.3%;
+	float: left;
+}
+#movers-row div img {
+	float: right;
 }
 
 
