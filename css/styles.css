@@ -16,8 +16,13 @@ a {
 	color: #7EEEE4;
 	text-decoration: none;
 	font-weight: bold;
-
 }
+
+h4 {
+  color: #71d6cd;
+	text-align: center;
+	font-family: gabriola;
+	font-size: 4em}
 
 a:hover {
 
@@ -161,6 +166,16 @@ section {
   background-attachment: fixed;
 }
 
+.background-tint {
+  background-color: rgba(0,0,139,.5);
+  background-blend-mode: multiply;
+}
+
+.background-tint2 {
+  background-color: rgba(225,225,225,.5);
+  background-blend-mode: multiply;
+}
+
 .bgimage2 h6 {
   color:#71d6cd;
   text-align: center;
@@ -173,7 +188,6 @@ section {
 	text-align: center;
 	font-family: gabriola;
 	font-size: 2em
-
 }
 
 
@@ -225,12 +239,6 @@ section {
 }
 
 
-
-h4 {
-	color: black;
-}
-
-
 h1 {
 
 	font-size: 2em;
@@ -260,9 +268,6 @@ footer {
     background-color: #292c2f;
     color: #bbb;
 }
-
-
-
 
 img {
 	max-width:100%;}
